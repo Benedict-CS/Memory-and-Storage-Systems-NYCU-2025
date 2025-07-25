@@ -1,0 +1,13 @@
+[global]
+filename=/dev/sda
+bs=4k
+size=64m
+direct=1
+stonewall
+
+[seq_read]
+rw=read
+
+[rand_read]
+rw=randread
+

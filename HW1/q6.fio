@@ -1,0 +1,15 @@
+[global]
+filename=/dev/sda
+size=64m
+direct=1
+rw=read
+ioengine=psync
+iodepth=1
+stonewall
+
+[read_4k]
+bs=4k
+
+[read_1k]
+bs=1k
+

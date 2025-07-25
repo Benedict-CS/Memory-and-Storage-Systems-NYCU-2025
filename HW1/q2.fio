@@ -1,0 +1,13 @@
+[global]
+filename=testfile_q2
+bs=4k
+size=64mb
+direct=1
+stonewall
+
+[write]
+rw=write
+
+[randwrite]
+rw=randwrite
+

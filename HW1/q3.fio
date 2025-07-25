@@ -1,0 +1,15 @@
+[global]
+filename=testfile_q3
+bs=4k
+size=64m
+direct=1
+stonewall
+
+[forward]
+rw=write
+offset_increment=4k
+
+[backward]
+rw=write
+offset_increment=-4k
+
